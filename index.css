@@ -1,0 +1,36 @@
+body{
+    background-color:#6667ab;
+}
+
+h3 {
+    color: #6667ab;
+    font-style:italic;
+    padding-top: 20px;
+}
+
+h5 {
+    color: #6667ab;
+    font-style:italic;
+}
+
+img {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#fields {
+    padding-bottom:40px;
+}
+
+#fieldrow {
+    padding-top:60px;
+}
+
+#social {
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

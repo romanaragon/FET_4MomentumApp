@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="container" style="width: 75%">
+    <br>
+    <div class="card text-center">
+        <img alt="card-img-top" class="card-img-top img-fluid" src="momentumlogo.png" />
+    </div>
+    <br>
+    <div class="card text-center">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="card-text">
+                        <h3>Built for Runners.
+                            <br>
+                            Built by Runners.
+                        </h3>
+                        </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="card-text">
+                        <b><h5>Getting started is easy!</h5></b>
+                        1.) Enter the fields below
+                        <br>
+                        2.) Hit the create button
+                        <br>
+                        3.) Use delete to remove 
+                    </p>
+                </div>
+            </div>
+            <div class="row" id="fieldrow">
+                <div class="col-sm-4" id="fields">
+                    <div class="form-group">
+                        <label for="new-run-date"><h4>RUN DATE</h4></label>
+                        <input type="date" class="form-control" id="new-run-date">
+                    </div>
+                </div>
+                <div class="col-sm-4" id="fields">
+                    <div class="form-group">
+                        <label for="new-run-dist"><h4>DISTANCE</h4></label>
+                        <input type="text" class="form-control" id="new-run-dist" placeholder="enter distance" style="text-align: center;">
+                    </div>
+                </div>
+                <div class="col-sm-4" id="fields">
+                    <div class="form-group">
+                        <label for="run-time"><h4>DURATION</h4></label>
+                        <input type="text" class="form-control" id="run-time" placeholder="enter duration" style="text-align: center;">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="add" class="btn btn-primary btn-sm">Create</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+    <table id="runlist" class="table table-light table-hover">
+        <tr>
+            <th>Date</th>   
+            <th>Distance</th>
+            <th>Duration</th>
+            <th>Delete</th>
+        </tr>
+    </table>
+    </div>
+    <br>
+    <div class="card text-center">
+        <div class="row" id="social">
+            <h5>Follow us and share your journey</h5> 
+            <div class="col-sm">
+                <a href="https://www.instagram.com/"><img src="instaicon.png" style="width:75px;" class="zoom"></a>
+                <a href="https://www.facebook.com/"><img src="facebookicon.png" style="width:75px;" class="zoom"></a>
+                <a href="https://twitter.com/"><img src="twittericon.png" style="width:75px;" class="zoom"></a>
+            </div>  
+        </div>
+        
+    </div>
+    <br>
+    <br>
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
